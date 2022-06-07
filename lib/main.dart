@@ -16,15 +16,15 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         backgroundColor: Colors.blueGrey,
 appBar: AppBar(
-  title: Text("Container and Row demo"),
+  title: Text("Container Column and Row demo"),
 ),
         body:  Container(
-          color: Colors.blue,
-          height: 500,
-          child: Row(
-            mainAxisAlignment: MainAxisAlignment.center,
-            crossAxisAlignment: CrossAxisAlignment.center,  // end  center
-          
+          width: 5000,
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center ,
+            crossAxisAlignment: CrossAxisAlignment.center,
+
+                                
             children: [
               Container(
                 height: 100,
