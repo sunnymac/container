@@ -20,6 +20,9 @@ appBar: AppBar(
 ),
         body:  Center(
           child: Row(
+            mainAxisAlignment: MainAxisAlignment.start,  // end  center
+
+         
             children: [
               Container(
                 height: 100,
@@ -27,10 +30,13 @@ appBar: AppBar(
                 color: Colors.amber,
               ),
               
-              Container(
-                height: 100,
-                width: 100,
-                color: Colors.red,
+              Padding(
+                padding: const EdgeInsets.all(10.0),
+                child: Container(
+                  height: 100,
+                  width: 100,
+                  color: Colors.red,
+                ),
               ),
               Container(
                 height: 100,
